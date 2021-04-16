@@ -1,0 +1,5 @@
+id_producto,Nombre,Precio,Descripción,Ancho,Largo,Alto,Peso
+1,Foco,30000,pantalla de luz,10,80,60,5
+2,laptop,700000,"computadora portátil de peso y tamaño ligero, su tamaño es aproximado al de un portafolio.",40,30,5,3
+3,televisor,300000,aparato electrónico destinado a la recepción y reproducción de señales de televisión.,5,80,60,15
+4,reloj,150000,"dispositivo que permite realizar la medición del tiempo y segmentarlo en unidades (segundos, minutos, horas, etc.). ",5,20,2,1

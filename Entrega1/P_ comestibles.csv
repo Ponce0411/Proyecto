@@ -1,0 +1,5 @@
+id_producto,Nombre,Precio,Descripción,Fecha_expiración,Extra
+1,queso,5000,"El queso es un alimento elaborado a partir de la leche cuajada de vaca, cabra, oveja u otros mamíferos.",17/05/2021,1
+2,pescado,10000,"La lasaña es un plato típico de la cocina italiana que se elabora a partir de finas láminas de pasta que son rellenadas con carne, tomate, verduras, cebollas y normalmente son cocinadas con aceite de oliva.",27/06/2021,3
+3,carne,15000,"Alimento proveniente de animales terrestres como la vaca, el cerdo, el cordero, etc. Se trata de uno de los alimentos más importantes porque aportan proteínas, grasas y minerales.",12/05/2021,3
+4,pepinillos,4000,Es un pepino que ha sido encurtido. Suelen ser comercializados al natural o en conserva.,30/08/2021,Encurtido
