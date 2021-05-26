@@ -1,132 +1,132 @@
-﻿id;nombre;precio;descripcion;peso(kg);fecha_de_caducidad
-0;merlusa;8706;pescado congelado;482;28-08-2021
-3;merlusa;13317;pescado congelado;203;09-08-2021
-5;mix de verduras congeladas;11791;verduras congeladas;161;03-01-2022
-9;hamburguesa de verduras;11678;hamburguesa;301;02-07-2021
-10;reineta;10545;pescado congelado;287;22-02-2022
-16;hamburguesa de quinoa;5914;hamburguesa;22;10-12-2021
-23;arvejas congeladas;12666;verduras congeladas;244;04-12-2021
-27;hamburguesa de pollo;13436;hamburguesa;203;25-12-2021
-34;mix de verduras congeladas;13386;verduras congeladas;415;30-06-2021
-35;hamburguesa de vacuno;13174;hamburguesa;337;07-08-2021
-36;lenguado;12514;pescado congelado;40;06-11-2021
-38;cerdo congelado;5036;carne congelada;267;11-07-2021
-39;merlusa;10053;pescado congelado;486;05-10-2021
-41;hamburguesa de verduras;13789;hamburguesa;386;04-06-2021
-44;lenguado;12660;pescado congelado;344;20-05-2021
-45;salmon;10211;pescado congelado;169;09-11-2021
-50;pollo congelado;12523;carne congelada;20;07-07-2021
-56;lenguado;5173;pescado congelado;26;07-11-2021
-58;hamburguesa de vacuno;5337;hamburguesa;384;06-01-2022
-63;arvejas congeladas;14607;verduras congeladas;393;05-11-2021
-65;hamburguesa de verduras;7556;hamburguesa;379;08-02-2022
-66;vacuno congelado;12014;carne congelada;135;12-11-2021
-70;vacuno congelado;14623;carne congelada;394;03-09-2021
-78;hamburguesa de quinoa;7460;hamburguesa;382;17-05-2021
-81;hamburguesa de vacuno;8644;hamburguesa;455;16-04-2022
-85;salmon;9211;pescado congelado;493;09-11-2021
-90;mix de verduras congeladas;9916;verduras congeladas;252;29-09-2021
-91;arvejas congeladas;7384;verduras congeladas;418;23-02-2022
-94;pollo congelado;6136;carne congelada;114;09-10-2021
-99;arvejas congeladas;12265;verduras congeladas;151;29-05-2021
-101;mix de verduras congeladas;8253;verduras congeladas;395;18-07-2021
-103;hamburguesa de vacuno;11871;hamburguesa;24;25-12-2021
-105;hamburguesa de vacuno;14223;hamburguesa;437;11-11-2021
-113;hamburguesa de verduras;8820;hamburguesa;124;12-06-2021
-114;reineta;9430;pescado congelado;229;14-12-2021
-116;cerdo congelado;11027;carne congelada;227;10-08-2021
-119;hamburguesa de vacuno;12701;hamburguesa;152;30-01-2022
-122;porotos congelados;11540;verduras congeladas;316;27-12-2021
-123;choclo congelado;14418;verduras congeladas;232;01-09-2021
-130;hamburguesa de verduras;11010;hamburguesa;102;28-07-2021
-131;cerdo congelado;8452;carne congelada;273;07-02-2022
-132;mix de verduras congeladas;10478;verduras congeladas;475;16-01-2022
-133;reineta;7700;pescado congelado;45;18-12-2021
-135;arvejas congeladas;9491;verduras congeladas;242;27-02-2022
-139;hamburguesa de quinoa;13665;hamburguesa;461;27-09-2021
-145;hamburguesa de verduras;8137;hamburguesa;286;04-02-2022
-150;salmon;6044;pescado congelado;353;17-04-2022
-151;cerdo congelado;13962;carne congelada;229;26-10-2021
-152;lenguado;13791;pescado congelado;49;27-04-2022
-157;hamburguesa de pollo;14465;hamburguesa;241;28-09-2021
-158;hamburguesa de pollo;10287;hamburguesa;371;07-05-2021
-160;merlusa;10910;pescado congelado;321;08-08-2021
-163;carne molida;7134;carne congelada;366;26-09-2021
-166;reineta;12040;pescado congelado;373;12-08-2021
-167;hamburguesa de vacuno;9224;hamburguesa;274;26-09-2021
-170;mix de verduras congeladas;7212;verduras congeladas;406;20-06-2021
-173;porotos congelados;14661;verduras congeladas;252;29-06-2021
-176;salmon;6261;pescado congelado;272;09-12-2021
-177;hamburguesa de pollo;6480;hamburguesa;275;07-11-2021
-181;hamburguesa de verduras;5304;hamburguesa;248;26-06-2021
-184;hamburguesa de vacuno;6871;hamburguesa;15;25-02-2022
-187;carne molida;12944;carne congelada;24;16-06-2021
-188;mix de verduras congeladas;13804;verduras congeladas;182;09-05-2021
-193;reineta;12780;pescado congelado;452;04-02-2022
-195;reineta;8674;pescado congelado;29;15-01-2022
-196;reineta;13212;pescado congelado;48;04-04-2022
-200;hamburguesa de verduras;5681;hamburguesa;437;03-02-2022
-206;lenguado;8200;pescado congelado;233;19-05-2021
-211;hamburguesa de quinoa;13949;hamburguesa;231;10-10-2021
-212;hamburguesa de quinoa;12482;hamburguesa;152;11-11-2021
-218;hamburguesa de pollo;8248;hamburguesa;139;16-01-2022
-221;salmon;7372;pescado congelado;176;26-03-2022
-223;reineta;8439;pescado congelado;319;14-08-2021
-226;carne molida;5033;carne congelada;201;17-04-2022
-229;merlusa;8380;pescado congelado;496;12-07-2021
-233;cerdo congelado;7670;carne congelada;352;03-03-2022
-238;reineta;10784;pescado congelado;384;11-04-2022
-239;merlusa;8602;pescado congelado;10;10-03-2022
-240;salmon;7427;pescado congelado;206;31-05-2021
-243;choclo congelado;6481;verduras congeladas;391;23-01-2022
-252;pavo congelado;6840;carne congelada;16;01-10-2021
-255;vacuno congelado;5421;carne congelada;153;19-08-2021
-256;porotos congelados;14619;verduras congeladas;109;23-08-2021
-262;lenguado;14080;pescado congelado;17;30-07-2021
-264;hamburguesa de vacuno;14847;hamburguesa;101;21-08-2021
-270;hamburguesa de verduras;12794;hamburguesa;299;18-05-2021
-272;salmon;6760;pescado congelado;385;13-08-2021
-279;merlusa;9334;pescado congelado;141;18-04-2022
-280;pollo congelado;6003;carne congelada;368;28-06-2021
-282;salmon;11494;pescado congelado;467;10-06-2021
-287;carne molida;14751;carne congelada;247;29-12-2021
-288;mix de verduras congeladas;6320;verduras congeladas;469;27-09-2021
-289;salmon;14016;pescado congelado;218;12-01-2022
-291;arvejas congeladas;9580;verduras congeladas;357;06-07-2021
-292;vacuno congelado;12122;carne congelada;141;20-05-2021
-293;vacuno congelado;7891;carne congelada;144;03-12-2021
-294;pollo congelado;10551;carne congelada;493;13-10-2021
-296;salmon;9495;pescado congelado;102;04-03-2022
-299;arvejas congeladas;7343;verduras congeladas;255;24-12-2021
-301;carne molida;6414;carne congelada;415;30-12-2021
-306;hamburguesa de verduras;7976;hamburguesa;164;29-01-2022
-308;mix de verduras congeladas;6920;verduras congeladas;133;20-08-2021
-309;carne molida;5014;carne congelada;125;06-08-2021
-314;pavo congelado;12293;carne congelada;325;19-06-2021
-322;mix de verduras congeladas;11198;verduras congeladas;112;18-09-2021
-325;cerdo congelado;8676;carne congelada;162;16-05-2021
-328;hamburguesa de pollo;6638;hamburguesa;209;26-07-2021
-331;lenguado;6376;pescado congelado;121;01-08-2021
-341;pollo congelado;10534;carne congelada;413;09-12-2021
-345;hamburguesa de verduras;12480;hamburguesa;274;22-11-2021
-346;porotos congelados;7726;verduras congeladas;294;29-05-2021
-347;salmon;5361;pescado congelado;166;17-07-2021
-351;vacuno congelado;11224;carne congelada;469;08-01-2022
-353;pavo congelado;7137;carne congelada;229;21-10-2021
-354;pollo congelado;8252;carne congelada;298;17-06-2021
-359;hamburguesa de vacuno;9503;hamburguesa;331;09-10-2021
-362;pavo congelado;12446;carne congelada;492;03-01-2022
-375;pollo congelado;7447;carne congelada;231;29-06-2021
-379;hamburguesa de vacuno;11754;hamburguesa;187;16-07-2021
-380;reineta;6388;pescado congelado;472;15-03-2022
-383;hamburguesa de verduras;9105;hamburguesa;379;14-07-2021
-386;carne molida;7866;carne congelada;283;14-09-2021
-387;lenguado;6433;pescado congelado;287;13-05-2021
-388;hamburguesa de vacuno;8376;hamburguesa;173;11-10-2021
-390;vacuno congelado;12201;carne congelada;358;22-08-2021
-396;porotos congelados;8296;verduras congeladas;465;24-08-2021
-400;mix de verduras congeladas;13648;verduras congeladas;455;09-04-2022
-401;arvejas congeladas;14782;verduras congeladas;248;09-01-2022
-402;salmon;6712;pescado congelado;451;08-01-2022
-404;mix de verduras congeladas;14681;verduras congeladas;166;03-01-2022
-410;salmon;12879;pescado congelado;14;02-09-2021
+﻿id;peso(kg);fecha_de_caducidad
+0;482;28-08-2021
+3;203;09-08-2021
+5;161;03-01-2022
+9;301;02-07-2021
+10;287;22-02-2022
+16;22;10-12-2021
+23;244;04-12-2021
+27;203;25-12-2021
+34;415;30-06-2021
+35;337;07-08-2021
+36;40;06-11-2021
+38;267;11-07-2021
+39;486;05-10-2021
+41;386;04-06-2021
+44;344;20-05-2021
+45;169;09-11-2021
+50;20;07-07-2021
+56;26;07-11-2021
+58;384;06-01-2022
+63;393;05-11-2021
+65;379;08-02-2022
+66;135;12-11-2021
+70;394;03-09-2021
+78;382;17-05-2021
+81;455;16-04-2022
+85;493;09-11-2021
+90;252;29-09-2021
+91;418;23-02-2022
+94;114;09-10-2021
+99;151;29-05-2021
+101;395;18-07-2021
+103;24;25-12-2021
+105;437;11-11-2021
+113;124;12-06-2021
+114;229;14-12-2021
+116;227;10-08-2021
+119;152;30-01-2022
+122;316;27-12-2021
+123;232;01-09-2021
+130;102;28-07-2021
+131;273;07-02-2022
+132;475;16-01-2022
+133;45;18-12-2021
+135;242;27-02-2022
+139;461;27-09-2021
+145;286;04-02-2022
+150;353;17-04-2022
+151;229;26-10-2021
+152;49;27-04-2022
+157;241;28-09-2021
+158;371;07-05-2021
+160;321;08-08-2021
+163;366;26-09-2021
+166;373;12-08-2021
+167;274;26-09-2021
+170;406;20-06-2021
+173;252;29-06-2021
+176;272;09-12-2021
+177;275;07-11-2021
+181;248;26-06-2021
+184;15;25-02-2022
+187;24;16-06-2021
+188;182;09-05-2021
+193;452;04-02-2022
+195;29;15-01-2022
+196;48;04-04-2022
+200;437;03-02-2022
+206;233;19-05-2021
+211;231;10-10-2021
+212;152;11-11-2021
+218;139;16-01-2022
+221;176;26-03-2022
+223;319;14-08-2021
+226;201;17-04-2022
+229;496;12-07-2021
+233;352;03-03-2022
+238;384;11-04-2022
+239;10;10-03-2022
+240;206;31-05-2021
+243;391;23-01-2022
+252;16;01-10-2021
+255;153;19-08-2021
+256;109;23-08-2021
+262;17;30-07-2021
+264;101;21-08-2021
+270;299;18-05-2021
+272;385;13-08-2021
+279;141;18-04-2022
+280;368;28-06-2021
+282;467;10-06-2021
+287;247;29-12-2021
+288;469;27-09-2021
+289;218;12-01-2022
+291;357;06-07-2021
+292;141;20-05-2021
+293;144;03-12-2021
+294;493;13-10-2021
+296;102;04-03-2022
+299;255;24-12-2021
+301;415;30-12-2021
+306;164;29-01-2022
+308;133;20-08-2021
+309;125;06-08-2021
+314;325;19-06-2021
+322;112;18-09-2021
+325;162;16-05-2021
+328;209;26-07-2021
+331;121;01-08-2021
+341;413;09-12-2021
+345;274;22-11-2021
+346;294;29-05-2021
+347;166;17-07-2021
+351;469;08-01-2022
+353;229;21-10-2021
+354;298;17-06-2021
+359;331;09-10-2021
+362;492;03-01-2022
+375;231;29-06-2021
+379;187;16-07-2021
+380;472;15-03-2022
+383;379;14-07-2021
+386;283;14-09-2021
+387;287;13-05-2021
+388;173;11-10-2021
+390;358;22-08-2021
+396;465;24-08-2021
+400;455;09-04-2022
+401;248;09-01-2022
+402;451;08-01-2022
+404;166;03-01-2022
+410;14;02-09-2021

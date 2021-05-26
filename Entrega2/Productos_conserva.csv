@@ -1,48 +1,48 @@
-﻿id;nombre;precio;descripcion;fecha_de_caducidad;tipo_de_conserva
-1;mix de frutas en conserva;10730;fruta en conserva;07-06-2021;caja
-11;papaya en conserva;7060;fruta en conserva;04-02-2022;lata
-12;mix de frutas en conserva;9432;fruta en conserva;07-10-2021;caja
-13;esparragos frasco;14537;verdura en conserva;12-07-2021;caja
-14;durazno en conserva;8285;fruta en conserva;08-06-2021;caja
-19;durazno en conserva;8421;fruta en conserva;12-12-2021;frasco
-31;papaya en conserva;8954;fruta en conserva;20-04-2022;lata
-33; frutillas en conserva;9530;fruta en conserva;14-09-2021;caja
-54;papaya en conserva;6280;fruta en conserva;01-04-2022;frasco
-59;durazno en conserva;5186;fruta en conserva;10-09-2021;frasco
-62; frutillas en conserva;6958;fruta en conserva;02-04-2022;lata
-71;papaya en conserva;14577;fruta en conserva;28-02-2022;lata
-83; frutillas en conserva;12139;fruta en conserva;23-05-2021;caja
-92;garbanzos en conserva;11554;verdura en conserva;17-04-2022;caja
-95;esparragos frasco;9882;verdura en conserva;09-09-2021;lata
-107;esparragos frasco;7134;verdura en conserva;30-11-2021;caja
-115; frutillas en conserva;9542;fruta en conserva;02-11-2021;lata
-124;garbanzos en conserva;11677;verdura en conserva;05-11-2021;lata
-141;mix de frutas en conserva;6583;fruta en conserva;26-08-2021;caja
-142;mix de frutas en conserva;5219;fruta en conserva;08-06-2021;caja
-147;arvejas en conserva;10396;verdura en conserva;15-10-2021;lata
-159;esparragos frasco;13153;verdura en conserva;11-06-2021;frasco
-171;mix de frutas en conserva;8658;fruta en conserva;04-02-2022;caja
-199;garbanzos en conserva;9115;verdura en conserva;23-12-2021;lata
-201;arvejas en conserva;11500;verdura en conserva;28-06-2021;lata
-202;garbanzos en conserva;14323;verdura en conserva;29-01-2022;caja
-207; frutillas en conserva;6563;fruta en conserva;11-05-2021;lata
-219;papaya en conserva;13561;fruta en conserva;15-01-2022;caja
-227;arvejas en conserva;13905;verdura en conserva;04-09-2021;lata
-228; frutillas en conserva;13599;fruta en conserva;12-04-2022;lata
-241;durazno en conserva;12190;fruta en conserva;11-03-2022;caja
-300;durazno en conserva;5467;fruta en conserva;18-02-2022;caja
-321;esparragos frasco;9752;verdura en conserva;24-06-2021;lata
-326;esparragos frasco;14352;verdura en conserva;16-08-2021;lata
-336;esparragos frasco;7752;verdura en conserva;04-05-2022;caja
-338;mix de frutas en conserva;10464;fruta en conserva;26-10-2021;frasco
-343;choclo en conserva;12429;verdura en conserva;09-06-2021;lata
-349; frutillas en conserva;7657;fruta en conserva;27-11-2021;lata
-352;mix de frutas en conserva;14348;fruta en conserva;26-09-2021;frasco
-355;mix de frutas en conserva;12120;fruta en conserva;27-08-2021;frasco
-376;arvejas en conserva;14460;verdura en conserva;21-02-2022;caja
-391;choclo en conserva;8087;verdura en conserva;19-07-2021;lata
-392;arvejas en conserva;13884;verdura en conserva;28-07-2021;lata
-395;choclo en conserva;11836;verdura en conserva;05-10-2021;frasco
-408;garbanzos en conserva;12008;verdura en conserva;11-02-2022;frasco
-413;durazno en conserva;12428;fruta en conserva;15-09-2021;frasco
-416;esparragos frasco;6807;verdura en conserva;18-01-2022;frasco
+﻿id;fecha_de_caducidad;tipo_de_conserva
+1;07-06-2021;caja
+11;04-02-2022;lata
+12;07-10-2021;caja
+13;12-07-2021;caja
+14;08-06-2021;caja
+19;12-12-2021;frasco
+31;20-04-2022;lata
+33;14-09-2021;caja
+54;01-04-2022;frasco
+59;10-09-2021;frasco
+62;02-04-2022;lata
+71;28-02-2022;lata
+83;23-05-2021;caja
+92;17-04-2022;caja
+95;09-09-2021;lata
+107;30-11-2021;caja
+115;02-11-2021;lata
+124;05-11-2021;lata
+141;26-08-2021;caja
+142;08-06-2021;caja
+147;15-10-2021;lata
+159;11-06-2021;frasco
+171;04-02-2022;caja
+199;23-12-2021;lata
+201;28-06-2021;lata
+202;29-01-2022;caja
+207;11-05-2021;lata
+219;15-01-2022;caja
+227;04-09-2021;lata
+228;12-04-2022;lata
+241;11-03-2022;caja
+300;18-02-2022;caja
+321;24-06-2021;lata
+326;16-08-2021;lata
+336;04-05-2022;caja
+338;26-10-2021;frasco
+343;09-06-2021;lata
+349;27-11-2021;lata
+352;26-09-2021;frasco
+355;27-08-2021;frasco
+376;21-02-2022;caja
+391;19-07-2021;lata
+392;28-07-2021;lata
+395;05-10-2021;frasco
+408;11-02-2022;frasco
+413;15-09-2021;frasco
+416;18-01-2022;frasco

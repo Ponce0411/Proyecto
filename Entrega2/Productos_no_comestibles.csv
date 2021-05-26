@@ -1,123 +1,123 @@
-﻿id;nombre;precio;descripcion;largo(cm);alto(cm);ancho(cm);peso(kg)
-2;pantalla lisa;5609;pantalla de luz;26;20;22;32
-7;pantalla lineas;10802;pantalla de luz;33;41;5;41
-8;pantalla papel;5556;pantalla de luz;17;15;14;6
-17;camiseta;14514;ropa;44;16;11;25
-21;televisor;12324;producto tecnologico;14;38;28;2
-22;televisor;5912;producto tecnologico;43;22;30;41
-24;teclado;9510;producto tecnologico;27;46;24;44
-32;pantalla para colgar;6200;pantalla de luz;47;45;32;19
-40;pantalla lisa;11843;pantalla de luz;18;25;9;43
-43;telefono;12517;producto tecnologico;38;19;35;15
-47;jeans;10242;ropa;47;43;11;68
-49;televisor;11837;producto tecnologico;9;36;33;39
-55;mouse;6334;producto tecnologico;11;13;39;64
-60;pantalla para colgar;8436;pantalla de luz;6;24;5;6
-68;camisa;5009;ropa;40;29;14;6
-69;teclado;11714;producto tecnologico;11;30;31;89
-72;camisa;9228;ropa;6;24;30;58
-73;pantalla lineas;8949;pantalla de luz;22;29;11;45
-74;pantalla lisa;14478;pantalla de luz;5;33;14;72
-79;teclado;5555;producto tecnologico;26;10;17;35
-84;pantalla lisa;14987;pantalla de luz;16;20;49;83
-86;televisor;13862;producto tecnologico;13;10;16;68
-87;teclado;12613;producto tecnologico;9;15;25;33
-88;mouse;12978;producto tecnologico;24;18;26;44
-89;pantalla lineas;6647;pantalla de luz;38;11;43;78
-98;teclado;5890;producto tecnologico;31;5;34;76
-100;camisa;14690;ropa;15;16;31;99
-102;televisor;5303;producto tecnologico;33;12;50;17
-104;chaqueta;9435;ropa;17;38;46;37
-106;pantalla papel;8041;pantalla de luz;25;14;45;8
-108;pantalla papel;14454;pantalla de luz;18;12;5;76
-110;pantalla papel;9914;pantalla de luz;38;48;20;25
-117;telefono;6853;producto tecnologico;26;7;27;62
-125;teclado;6734;producto tecnologico;12;42;48;82
-126;teclado;12241;producto tecnologico;38;9;45;88
-134;jeans;10305;ropa;47;11;36;72
-137;jeans;11374;ropa;41;5;7;89
-140;teclado;6971;producto tecnologico;45;9;8;56
-146;poleron;12236;ropa;40;20;9;95
-153;pantalla papel;8665;pantalla de luz;39;36;29;6
-154;telefono;13859;producto tecnologico;36;10;20;43
-155;vestido;12164;ropa;12;20;41;7
-165;camiseta;10613;ropa;35;31;31;29
-172;polera;11996;ropa;44;10;39;7
-179;teclado;12795;producto tecnologico;46;7;12;52
-189;telefono;13048;producto tecnologico;7;48;21;98
-190;pantalla papel;14669;pantalla de luz;7;15;41;36
-192;telefono;12648;producto tecnologico;23;6;6;41
-197;pantalla papel;10497;pantalla de luz;46;35;27;63
-198;mouse;12730;producto tecnologico;33;29;6;62
-208;telefono;9760;producto tecnologico;22;8;31;14
-209;televisor;10968;producto tecnologico;27;37;47;18
-210;pantalla lisa;7658;pantalla de luz;46;8;14;35
-213;calcetin;14881;ropa;12;26;9;37
-222;vestido;10689;ropa;19;49;16;17
-224;camiseta;12133;ropa;7;38;23;41
-225;pantalla papel;8193;pantalla de luz;44;14;20;71
-230;pantalla para colgar;5925;pantalla de luz;8;41;12;9
-231;jeans;13914;ropa;35;15;10;92
-232;mouse;7653;producto tecnologico;33;16;40;21
-236;mouse;11941;producto tecnologico;42;8;38;94
-244;pantalla para colgar;5174;pantalla de luz;21;45;10;64
-245;pantalla lisa;6627;pantalla de luz;49;31;37;25
-247;poleron;12512;ropa;35;28;12;85
-248;pantalla para colgar;8944;pantalla de luz;22;6;37;47
-257;pantalon;12445;ropa;39;15;50;46
-258;chaqueta;13813;ropa;35;33;14;63
-259;vestido;8209;ropa;43;34;39;76
-263;pantalla papel;14631;pantalla de luz;8;8;33;31
-265;telefono;6947;producto tecnologico;9;40;30;89
-266;poleron;11997;ropa;36;44;9;84
-268;teclado;12598;producto tecnologico;43;14;8;86
-269;televisor;11826;producto tecnologico;14;30;14;88
-271;televisor;9188;producto tecnologico;47;23;16;25
-275;pantalla lisa;13875;pantalla de luz;34;42;25;77
-276;pantalla para colgar;6897;pantalla de luz;41;15;10;12
-278;camiseta;9381;ropa;16;15;40;88
-281;vestido;6522;ropa;42;7;26;17
-283;telefono;12515;producto tecnologico;15;19;38;71
-297;pantalla para colgar;6596;pantalla de luz;20;13;44;51
-298;vestido;5065;ropa;7;7;19;16
-302;teclado;8227;producto tecnologico;26;40;48;62
-303;pantalla lisa;14182;pantalla de luz;7;46;33;57
-304;jeans;8403;ropa;26;29;22;69
-305;teclado;9834;producto tecnologico;22;36;34;46
-311;vestido;14898;ropa;28;25;14;21
-312;pantalla papel;6898;pantalla de luz;43;7;19;75
-315;pantalla lisa;13048;pantalla de luz;40;24;26;36
-317;pantalla lineas;13847;pantalla de luz;44;43;45;27
-320;pantalla lineas;8495;pantalla de luz;34;42;48;41
-324;poleron;6437;ropa;39;24;44;93
-332;pantalla lisa;7833;pantalla de luz;6;6;7;64
-333;pantalla lineas;6062;pantalla de luz;16;23;37;17
-334;pantalla lineas;9860;pantalla de luz;40;14;10;98
-337;pantalla lineas;11430;pantalla de luz;25;32;16;65
-339;telefono;5181;producto tecnologico;21;23;26;3
-340;pantalla para colgar;5107;pantalla de luz;48;27;39;29
-344;pantalla para colgar;11629;pantalla de luz;9;18;47;23
-348;mouse;14046;producto tecnologico;18;14;42;29
-357;mouse;14549;producto tecnologico;26;50;42;66
-360;pantalla papel;11751;pantalla de luz;37;41;20;71
-361;mouse;10779;producto tecnologico;32;30;31;21
-363;jeans;7348;ropa;38;34;31;25
-364;mouse;11097;producto tecnologico;8;45;46;18
-365;camiseta;12323;ropa;6;14;41;34
-366;pantalla papel;8830;pantalla de luz;45;47;16;92
-367;teclado;7331;producto tecnologico;32;32;18;5
-372;mouse;9082;producto tecnologico;20;10;12;85
-373;pantalla papel;5674;pantalla de luz;11;41;31;87
-374;pantalla papel;13760;pantalla de luz;5;32;38;98
-377;telefono;14256;producto tecnologico;35;5;12;82
-378;televisor;10657;producto tecnologico;26;45;5;13
-381;pantalla para colgar;8882;pantalla de luz;41;9;42;37
-384;pantalla lineas;13539;pantalla de luz;22;14;48;65
-393;televisor;8016;producto tecnologico;22;19;47;32
-398;pantalla papel;14579;pantalla de luz;19;20;25;19
-399;mouse;14474;producto tecnologico;42;36;10;36
-403;vestido;11750;ropa;41;36;14;61
-406;pantalla para colgar;5421;pantalla de luz;9;41;24;99
-409;pantalla lineas;12158;pantalla de luz;24;27;14;92
-414;pantalla lineas;11871;pantalla de luz;12;14;49;55
-415;pantalla lineas;8289;pantalla de luz;45;8;35;47
+﻿id;largo(cm);alto(cm);ancho(cm);peso(kg)
+2;26;20;22;32
+7;33;41;5;41
+8;17;15;14;6
+17;44;16;11;25
+21;14;38;28;2
+22;43;22;30;41
+24;27;46;24;44
+32;47;45;32;19
+40;18;25;9;43
+43;38;19;35;15
+47;47;43;11;68
+49;9;36;33;39
+55;11;13;39;64
+60;6;24;5;6
+68;40;29;14;6
+69;11;30;31;89
+72;6;24;30;58
+73;22;29;11;45
+74;5;33;14;72
+79;26;10;17;35
+84;16;20;49;83
+86;13;10;16;68
+87;9;15;25;33
+88;24;18;26;44
+89;38;11;43;78
+98;31;5;34;76
+100;15;16;31;99
+102;33;12;50;17
+104;17;38;46;37
+106;25;14;45;8
+108;18;12;5;76
+110;38;48;20;25
+117;26;7;27;62
+125;12;42;48;82
+126;38;9;45;88
+134;47;11;36;72
+137;41;5;7;89
+140;45;9;8;56
+146;40;20;9;95
+153;39;36;29;6
+154;36;10;20;43
+155;12;20;41;7
+165;35;31;31;29
+172;44;10;39;7
+179;46;7;12;52
+189;7;48;21;98
+190;7;15;41;36
+192;23;6;6;41
+197;46;35;27;63
+198;33;29;6;62
+208;22;8;31;14
+209;27;37;47;18
+210;46;8;14;35
+213;12;26;9;37
+222;19;49;16;17
+224;7;38;23;41
+225;44;14;20;71
+230;8;41;12;9
+231;35;15;10;92
+232;33;16;40;21
+236;42;8;38;94
+244;21;45;10;64
+245;49;31;37;25
+247;35;28;12;85
+248;22;6;37;47
+257;39;15;50;46
+258;35;33;14;63
+259;43;34;39;76
+263;8;8;33;31
+265;9;40;30;89
+266;36;44;9;84
+268;43;14;8;86
+269;14;30;14;88
+271;47;23;16;25
+275;34;42;25;77
+276;41;15;10;12
+278;16;15;40;88
+281;42;7;26;17
+283;15;19;38;71
+297;20;13;44;51
+298;7;7;19;16
+302;26;40;48;62
+303;7;46;33;57
+304;26;29;22;69
+305;22;36;34;46
+311;28;25;14;21
+312;43;7;19;75
+315;40;24;26;36
+317;44;43;45;27
+320;34;42;48;41
+324;39;24;44;93
+332;6;6;7;64
+333;16;23;37;17
+334;40;14;10;98
+337;25;32;16;65
+339;21;23;26;3
+340;48;27;39;29
+344;9;18;47;23
+348;18;14;42;29
+357;26;50;42;66
+360;37;41;20;71
+361;32;30;31;21
+363;38;34;31;25
+364;8;45;46;18
+365;6;14;41;34
+366;45;47;16;92
+367;32;32;18;5
+372;20;10;12;85
+373;11;41;31;87
+374;5;32;38;98
+377;35;5;12;82
+378;26;45;5;13
+381;41;9;42;37
+384;22;14;48;65
+393;22;19;47;32
+398;19;20;25;19
+399;42;36;10;36
+403;41;36;14;61
+406;9;41;24;99
+409;24;27;14;92
+414;12;14;49;55
+415;45;8;35;47
