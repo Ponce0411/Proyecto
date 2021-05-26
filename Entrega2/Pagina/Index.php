@@ -1,55 +1,79 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
+<?php include('templates/header.html');   ?>
+
 <body>
+  <h1 align="center">Biblioteca Pokemón </h1>
+  <p style="text-align:center;">Aquí podrás encontrar información sobre pokemones.</p>
 
-<h1>Hola</h1>
-<?php
-#Para definir variables que pueda ser utilizada en todo el HTML se deben anteceder con $
-$var1 = 20;
-$booleano = true;
+  <br>
 
-#Para imprimir en el HTML ocupamos echo
-echo "<p> Las variables son:<br> Var1: $var1 <br> booleano: $booleano</p>";
+  <h3 align="center"> ¿Quieres buscar un Pokemón por tipo y/o nombre?</h3>
 
-#Control de flujo
-if ($booleano){
-    echo "<h4> Dentro del if: la variable era TRUE.</h4>";
-} else {
-    echo "<h4> Dentro del if: la variable era FALSE.</h4>";
-}
+  <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
+    Tipo:
+    <input type="text" name="tipo_elegido">
+    <br/>
+    Nombre:
+    <input type="text" name="nombre_pokemon">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
+  
+  <br>
+  <br>
+  <br>
 
-#Looping. Hay varios tipos de looping. Investigar!
-echo "<h3>For Loop:</h3>";
-for($i = 0; $i<6; $i++) {
-  echo "<p> i: $i </p>";
-}
+  <h3 align="center"> ¿Quieres buscar un Pokemón por su ID?</h3>
 
-echo "<h3>Foreach Loop:</h3>";
-$array = array( 1, 2, 3, 4, 5);
-foreach( $array as $v ) {
-   echo "<p> Value is: $v </p>";
-}
-$array2 = array(
-    "foo" => "bar",
-    "bar" => "foo",
-);
-// $array2['ewe'] = 'uwu'
-?>
-<table>
-	<tr>
-		<th>Key</th>
-		<th>Value</th>
-	</tr>
-	<?php foreach ($array2 as $key => $value): ?>
-		<tr>
-			<td><?php echo $key; ?></td>
-			<td><?php echo $value; ?></td>
-		</tr>
-	<?php endforeach; ?>
-</table>
+  <form align="center" action="consultas/consulta_stats.php" method="post">
+    Id:
+    <input type="text" name="id_elegido">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
+  
+  <br>
+  <br>
+  <br>
 
+  <h3 align="center"> ¿Quieres conocer los Pokemones más altos que: ?</h3>
+
+  <form align="center" action="consultas/consulta_altura.php" method="post">
+    Altura Mínima:
+    <input type="text" name="altura">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
+  <br>
+  <br>
+  <br>
+
+  <h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
+
+  <?php
+  #Primero obtenemos todos los tipos de pokemones
+  require("config/conexion.php");
+  $result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+  $result -> execute();
+  $dataCollected = $result -> fetchAll();
+  ?>
+
+  <form align="center" action="consultas/consulta_tipo.php" method="post">
+    Seleccinar un tipo:
+    <select name="tipo">
+      <?php
+      #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
+      foreach ($dataCollected as $d) {
+        echo "<option value=$d[0]>$d[0]</option>";
+      }
+      ?>
+    </select>
+    <br><br>
+    <input type="submit" value="Buscar por tipo">
+  </form>
+
+  <br>
+  <br>
+  <br>
+  <br>
 </body>
 </html>
