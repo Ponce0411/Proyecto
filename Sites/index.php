@@ -22,11 +22,9 @@
   <br>
   <br>
 
-  <h3 align="center"> ¿Quieres buscar un Pokemón por su ID?</h3>
+  <h3 align="center"> Cobertura de tiendas</h3>
 
-  <form align="center" action="consultas/consulta_stats.php" method="post">
-    Id:
-    <input type="text" name="id_elegido">
+  <form align="center" action="consultas/consulta_nombre_tienda.php" method="post">
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>
@@ -52,7 +50,7 @@
   <?php
   #Primero obtenemos todos los tipos de pokemones
   require("config/conexion.php");
-  $result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+  $result = $db -> prepare("SELECT tiendas.nombre,despacho.comuna_de_cobertura FROM tiendas,despacho WHERE tiendas.id=despacho.tienda_id ORDER BY tiendas.id;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
