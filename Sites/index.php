@@ -1,12 +1,12 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-  <h1 align="center">Biblioteca Pokemón </h1>
-  <p style="text-align:center;">Aquí podrás encontrar información sobre pokemones.</p>
+  <h1 align="center">Base de Fritos ~ Grupo101</h1>
+  <p style="text-align:center;">Aqui no se aceptan bajos</p>
 
   <br>
 
-  <h3 align="center"> ¿Quieres buscar un Pokemón por tipo y/o nombre?</h3>
+  <h3 align="center"> Jefes de tiendas por comuna</h3>
 
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
     Tipo:
