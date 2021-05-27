@@ -7,7 +7,7 @@
 
   $descripcion = $_POST["descripcion"];
 
- 	$query = "SELECT usuarios.nombre FROM productos, usuarios, compras, productos_en_compra WHERE usuarios.id=compras.usuario_id AND productos.descripcion LIKE '%$descripcion%' AND compras.id=productos_en_compra.compra_id AND productos_en_compra.producto_id=productos.id ORDER BY usuarios.nombre;";
+ 	$query = "SELECT usuarios.nombre FROM productos, usuarios, compras, productos_en_compra WHERE usuarios.id=compras.usuario_id AND productos.descripcion LIKE '%$descripcion%' AND compras.id=productos_en_compra.compra_id AND productos_en_compra.producto_id=productos.id GROUP BY usuarios.nombre ORDER BY usuarios.nombre;";
 
 	$result = $db -> prepare($query);
 	$result -> execute();
