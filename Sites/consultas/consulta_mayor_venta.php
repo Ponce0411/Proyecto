@@ -15,6 +15,7 @@
   <table>
     <tr>
       <th>Nombre</th>
+      <th>Cantidad</th>
     </tr>
   <?php
   foreach ($Tiendas as $Tienda) {
