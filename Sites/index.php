@@ -81,6 +81,28 @@
     <input type="submit" value="Buscar por tipo">
   </form>
 
+  <h3 align="center">Tiendas que registran la mayor venta de un producto segun su tipo</h3>
+
+  <?php
+  require("config/conexion.php");
+  $result = $db -> prepare("SELECT DISTINCT productos.tipo FROM productos ORDER BY productos.tipo;");
+  $result -> execute();
+  $dataCollected = $result -> fetchAll();
+  ?>
+
+  <form align="center" action="consultas/consulta_mayor_venta.php" method="post">
+    Seleccione un tipo de producto:
+    <select name="tipo">
+      <?php
+      foreach ($dataCollected as $d) {
+        echo "<option value=$d[0]>$d[0]</option>";
+      }
+      ?>
+    </select>
+    <br><br>
+    <input type="submit" value="Buscar por tipo">
+  </form>
+
   <br>
   <br>
   <br>

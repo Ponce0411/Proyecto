@@ -6,7 +6,7 @@
   require("../config/conexion.php");
 
   $var = $_POST["tipo"];
-  $query = "SELECT DISTINCT tiendas.nombre FROM tiendas, productos, productos_en_tienda WHERE productos.tipo='$var' AND tiendas.id=productos_en_tienda.tienda_id AND productos.id=productos_en_tienda.producto_id;";
+  $query = "SELECT DISTINCT tiendas.nombre FROM tiendas, productos, productos_en_tienda WHERE productos.tipo='$var' AND tiendas.id=productos_en_tienda.tienda_id AND productos.id=productos_en_tienda.producto_id ORDER BY tiendas.nombre;";
   $result = $db -> prepare($query);
   $result -> execute();
   $Tiendas = $result -> fetchAll(); 
