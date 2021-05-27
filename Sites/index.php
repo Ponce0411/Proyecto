@@ -11,6 +11,7 @@
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
     <br/>
     Comuna
+    <br/>
     <input type="text" name="nombre_comuna">
     <br/><br/>
     <input type="submit" value="Buscar">
