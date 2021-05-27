@@ -33,11 +33,23 @@
   <br>
   <br>
 
-  <h3 align="center"> ¿Quieres conocer los Pokemones más altos que: ?</h3>
+  <h3 align="center"> Usuarios que compraron un producto según su descripción</h3>
 
-  <form align="center" action="consultas/consulta_altura.php" method="post">
-    Altura Mínima:
-    <input type="text" name="altura">
+  <form align="center" action="consultas/consulta_descripcion.php" method="post">
+    Descripción:
+    <input type="text" name="descripcion">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
+  <br>
+  <br>
+  <br>
+
+  <h3 align="center"> Edad promedio de trabajadores por comuna</h3>
+
+  <form align="center" action="consultas/consulta_edad.php" method="post">
+    Descripción:
+    <input type="text" name="descripcion">
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>

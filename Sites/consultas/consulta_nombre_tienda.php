@@ -2,10 +2,10 @@
 
 <body>
 <?php
-  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+
   require("../config/conexion.php");
 
- 	$query = "SELECT tiendas.nombre,despacho.comuna_de_cobertura FROM tiendas,despacho WHERE tiendas.id=despacho.tienda_id ORDER BY tiendas.id;";
+ 	$query = "SELECT DISTINCT tiendas.nombre,despacho.comuna_de_cobertura FROM tiendas,despacho WHERE tiendas.id=despacho.tienda_id ORDER BY tiendas.nombre;";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$Tiendas = $result -> fetchAll();
