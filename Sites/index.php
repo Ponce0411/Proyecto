@@ -8,9 +8,10 @@
 
   <h3 align="center"> Jefes de tiendas por comuna</h3>
 
-  <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
+  <form align="center" action="consultas/consulta_nombre_comuna.php" method="post">
     <br/>
     Comuna
+    <br/>
     <br/>
     <input type="text" name="nombre_comuna">
     <br/><br/>
