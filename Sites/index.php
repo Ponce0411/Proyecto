@@ -81,7 +81,7 @@
     <input type="submit" value="Buscar por tipo">
   </form>
 
-  <h3 align="center">Tiendas que registran la mayor venta de un producto segun su tipo</h3>
+  <h3 align="center">Tiendas que registran la mayor cantidad de venta de un producto segun su tipo</h3>
 
   <?php
   require("config/conexion.php");
