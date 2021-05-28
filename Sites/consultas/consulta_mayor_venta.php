@@ -14,7 +14,7 @@
 
   <table>
     <tr>
-      <th>Nombre</th>
+      <th>Tienda</th>
       <th>Cantidad</th>
     </tr>
   <?php

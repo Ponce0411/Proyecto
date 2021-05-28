@@ -16,7 +16,7 @@
 
   <table>
     <tr>
-      <th>Nombre</th>
+      <th>Usuario</th>
     </tr>
   
       <?php

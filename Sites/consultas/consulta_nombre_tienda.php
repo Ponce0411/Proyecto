@@ -14,7 +14,7 @@
 	<table>
     <tr>
       <th>Tienda</th>
-      <th>Comuna</th>
+      <th>Comuna de cobertura</th>
     </tr>
   <?php
 	foreach ($Tiendas as $tienda) {

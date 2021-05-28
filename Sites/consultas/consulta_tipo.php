@@ -14,7 +14,7 @@
 
   <table>
     <tr>
-      <th>Nombre</th>
+      <th>Tienda</th>
     </tr>
   <?php
   foreach ($Tiendas as $Tienda) {
