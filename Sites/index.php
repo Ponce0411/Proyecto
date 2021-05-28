@@ -1,8 +1,8 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-  <h1 align="center">Base de Fritos ~ Grupo101</h1>
-  <p style="text-align:center;">Aqui no se aceptan bajos</p>
+  <h1 align="center">Base Fritz ~ Grupo101</h1>
+  <p style="text-align:center;">Aqui encontrará todo lo que necesite</p>
 
   <br>
 
