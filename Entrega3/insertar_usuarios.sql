@@ -7,11 +7,11 @@ tupla_persona2 RECORD ;
 maximo INT ;
 
 BEGIN
-    FOR tupla_persona2 IN (SELECT * FROM public.dblink('dbname=grupo48e3 
+    FOR tupla_persona2 IN (SELECT * FROM public.dblink("dbname=grupo48e3 
     port=5432
     password=tuckathomas123
     user=grupo48','SELECT personal.id, personal.nombre,personal.rut,personal.edad,personal.sexo
-    FROM personal WHERE personal.clasificación = "administracion"') AS f(id int, nombre varchar, rut int, edad int, sexo varchar))
+    FROM personal WHERE personal.clasificación = 'administracion'") AS f(id int, nombre varchar, rut int, edad int, sexo varchar))
     
 
     LOOP
