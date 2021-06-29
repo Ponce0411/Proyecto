@@ -16,13 +16,14 @@ BEGIN
 
     LOOP
 
-        SET maximo = SELECT MAX(usuarios.id) FROM usuarios
+    SET maximo
+    MAX(usuarios.id) 
+    FROM usuarios;
+    IF (tupla_persona2 NOT IN (SELECT * FROM usuarios)) THEN   
+    INSERT INTO usuarios VALUES(maximo+1,tupla_persona2.nombre,tupla_persona2.rut,tupla_persona2.sexo);
+    RETURN TRUE
+    END IF;
 
-        IF (tupla_persona2 NOT IN (SELECT * FROM usuarios)) THEN
-        
-        INSERT INTO usuarios VALUES(maximo+1,tupla_persona2.nombre,tupla_persona2.rut,tupla_persona2.sexo);
-        
-        END IF;
     END LOOP;
 
 END
