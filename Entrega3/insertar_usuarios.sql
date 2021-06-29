@@ -19,7 +19,7 @@ BEGIN
     SELECT INTO maximo
     MAX(usuarios.id) 
     FROM usuarios;
-    IF (tupla_persona2 NOT IN (SELECT * FROM usuarios) AND clasificación = 'administracion') THEN   
+    IF (tupla_persona2.rut NOT IN (SELECT usuarios.rut FROM usuarios) AND tupla_persona2.clasificación = 'administracion') THEN   
     INSERT INTO usuarios VALUES(maximo+1,tupla_persona2.nombre,tupla_persona2.rut,tupla_persona2.edad,tupla_persona2.sexo);
     END IF;
 
