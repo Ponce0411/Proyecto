@@ -16,7 +16,7 @@ BEGIN
 
     LOOP
 
-        SET maximo = SELECT MAX(usuarios.id) FROM usuarios
+        SET (maximo = SELECT MAX(usuarios.id) FROM usuarios)
 
         IF tupla_persona2 NOT IN (SELECT * FROM usuarios) THEN
         
