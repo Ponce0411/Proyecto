@@ -11,7 +11,7 @@ BEGIN
     port=5432
     password=tuckathomas123
     user=grupo48','SELECT persoanl.id, personal.nombre,personal.rut,personal.sexo
-    FROM personal WHERE personal.clasificacion = 'administracion'')AS f(id int, nombre varchar, rut int, sexo varchar)
+    FROM personal WHERE personal.clasificacion = 'administracion'')AS f(id int, nombre varchar, rut int, sexo varchar))
     
 
     LOOP
