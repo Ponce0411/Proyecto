@@ -11,7 +11,7 @@ BEGIN
     FROM public.dblink('dbname=grupo48e3 
     port=5432
     password=tuckathomas123
-    user=grupo48','SELECT * FROM personal') AS f(id int, nombre varchar, rut int, sexo varchar) WHERE personal.clasificacion = 'administracion')
+    user=grupo48','SELECT * FROM personal') AS f(id int, nombre varchar, rut int, sexo varchar) WHERE personal.clasificacion = 'administracion');
     
 
     LOOP
