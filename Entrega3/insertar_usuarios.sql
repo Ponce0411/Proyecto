@@ -17,7 +17,7 @@ BEGIN
     LOOP
 
     SELECT INTO maximo
-    MAX(usuarios.id) 
+    MAX(usuarios_web.id) 
     FROM usuarios_web;
     IF (tupla_persona2.rut NOT IN (SELECT usuarios.rut FROM usuarios_web) AND tupla_persona2.clasificación = 'administracion') THEN   
     INSERT INTO usuarios_web VALUES(maximo+1,tupla_persona2.nombre,tupla_persona2.rut,tupla_persona2.edad,tupla_persona2.sexo,tupla_persona2.direccion);
