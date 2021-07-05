@@ -20,7 +20,7 @@ BEGIN
 
     UPDATE compras
     SET fecha = tupla_compra.fecha
-    WHERE id = tupla_compra.id_compra
+    WHERE id = tupla_compra.id_compra;
 
     END LOOP;
 
