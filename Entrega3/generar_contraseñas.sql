@@ -8,8 +8,8 @@ BEGIN
     END IF; 
 
     UPDATE usuarios_web
-    SET contraseña = clave
-    FROM (SELECT SUBSTRING(rut,1,4) as clave FROM usuarios_web); 
+    SET usuarios_web.contraseña = query.clave
+    FROM (SELECT SUBSTRING(rut,1,4) as clave FROM usuarios_web) AS query; 
 END
 
 $$ language plpgsql
