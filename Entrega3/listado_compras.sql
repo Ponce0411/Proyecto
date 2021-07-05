@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION
-listado_compra(id INT)
+listado_compra()
 RETURNS void AS $$
 
 DECLARE
@@ -15,10 +15,6 @@ BEGIN
     ALTER TABLE compras ADD COLUMN fecha date;
     END IF; 
 
-    UPDATE compras
-    SET fecha = listado.enguels
-    FROM compras, (SELECT compras.id, tupla_compra.fecha AS enguels FROM compras, tupla_compra WHERE tupla_compra.id_compra = compras.id) 
-    AS listado WHERE tupla_compra.id_compra = compras.id
 END
 
 $$ language plpgsql 
