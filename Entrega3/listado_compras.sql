@@ -20,8 +20,8 @@ BEGIN
 
     UPDATE compras
     SET fecha = listado.enguels
-    FROM compras, (SELECT compras.id, tupla_compra.fecha AS enguels FROM compras, tupla_compra WHERE tupla_compra.id_compra = compras.id) 
-    AS listado WHERE tupla_compra.id_compra = compras.id;
+    FROM compras as p11, (SELECT id_compra, tupla.fecha AS enguels FROM compras as p11, tupla_compra as tupla WHERE p11.id = tupla.id_compra) 
+    AS listado WHERE p11.id = listado.id_compra;
 
     END LOOP;
 
