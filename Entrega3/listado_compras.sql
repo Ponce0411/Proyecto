@@ -11,9 +11,4 @@ BEGIN
     password=tuckathomas123
     user=grupo48','SELECT despacho.id_compra, despacho.fecha FROM despacho') AS f(id_compra int, fecha date)
 
-    SELECT compras.id, tiendas.nombre, direcciones.nombre, tupla_compra.fecha FROM compras, tiendas, direcciones, tupla_compra
-    WHERE compras.tienda_id = tiendas.id 
-    AND compras.direccion_id = direcciones.id
-    AND compras.id = tupla_compra.id_compra
-    AND compras.usuario_id = id
-    ORDER BY tupla_compra.fecha;
+    SELECT INTO 

@@ -13,6 +13,3 @@ BEGIN
 END
 
 $$ language plpgsql
-
-
-SELECT usuarios_web
