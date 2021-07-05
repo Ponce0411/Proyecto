@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION
-Enguels()
+Listado_Enguels()
 RETURNS void AS $$
 
 DECLARE
@@ -21,7 +21,7 @@ BEGIN
     UPDATE compras
     SET fecha = listado.enguels
     FROM compras, (SELECT compras.id, tupla_compra.fecha AS enguels FROM compras, tupla_compra WHERE tupla_compra.id_compra = compras.id) 
-    AS listado WHERE tupla_compra.id_compra = compras.id
+    AS listado WHERE tupla_compra.id_compra = compras.id;
 
     END LOOP;
 
