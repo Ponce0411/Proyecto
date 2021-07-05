@@ -1,6 +1,6 @@
-CREATE OR REPLACE FUNCTION
+CREATE PROCEDURE
 generar_contraseña()
-RETURNS void AS $$ 
+
 BEGIN
     IF NOT EXISTS(SELECT * FROM information_schema.COLUMNS WHERE COLUMN_NAME = 'contraseña' AND TABLE_NAME='usuarios_web') THEN
     ALTER TABLE usuarios_web ADD COLUMN contraseña varchar(4) NOT NULL default '';
