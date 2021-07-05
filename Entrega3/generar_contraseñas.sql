@@ -2,9 +2,6 @@ CREATE OR REPLACE FUNCTION
 generar_contraseña()
 RETURNS void AS $$ 
 
-DECLARE
-contraseña RECORD ;
-
 BEGIN
     IF NOT EXISTS(SELECT * FROM information_schema.COLUMNS WHERE COLUMN_NAME = 'contraseña' AND TABLE_NAME='usuarios_web') THEN
     ALTER TABLE usuarios_web ADD COLUMN contraseña varchar(4);
@@ -16,3 +13,6 @@ BEGIN
 END
 
 $$ language plpgsql
+
+
+SELECT usuarios_web
