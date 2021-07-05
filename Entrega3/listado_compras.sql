@@ -9,7 +9,7 @@ BEGIN
     FOR tupla_compra IN (SELECT * FROM public.dblink('dbname=grupo48e3 
     port=5432
     password=tuckathomas123
-    user=grupo48','SELECT despacho.id_compra, despacho.fecha FROM despacho') AS f(id_compra int, fecha date)
+    user=grupo48','SELECT despacho.id_compra, despacho.fecha FROM despacho') AS f(id_compra int, fecha date))
 
     IF NOT EXISTS(SELECT * FROM information_schema.COLUMNS WHERE COLUMN_NAME = 'fecha' AND TABLE_NAME='compras') THEN
     ALTER TABLE compras ADD COLUMN fecha date;
