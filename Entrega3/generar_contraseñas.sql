@@ -3,7 +3,7 @@ generar_contraseña()
 RETURNS void AS $$ 
 
 DECLARE
-clave VARCHAR ;
+clave RECORD ;
 
 BEGIN
     IF NOT EXISTS(SELECT * FROM information_schema.COLUMNS WHERE COLUMN_NAME = 'contraseña' AND TABLE_NAME='usuarios_web') THEN
