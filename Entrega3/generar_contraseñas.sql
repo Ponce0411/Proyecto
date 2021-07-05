@@ -10,6 +10,7 @@ BEGIN
     UPDATE usuarios_web
     SET contraseña = clave
     FROM (SELECT SUBSTRING(rut,1,4) as clave FROM usuarios_web) 
+    RETURN NEW;
 END
 
 $$ language plpgsql
