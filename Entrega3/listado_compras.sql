@@ -8,7 +8,7 @@ tupla_compra RECORD ;
 BEGIN
 
     IF NOT EXISTS(SELECT * FROM information_schema.COLUMNS WHERE COLUMN_NAME = 'fecha' AND TABLE_NAME='compras') THEN
-    ALTER TABLE compras ADD COLUMN fecha date;
+    ALTER TABLE compras ADD COLUMN fecha varchar;
     END IF; 
 
     FOR tupla_compra IN (SELECT * FROM public.dblink('dbname=grupo48e3 
