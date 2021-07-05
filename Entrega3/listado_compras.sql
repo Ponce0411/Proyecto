@@ -11,4 +11,12 @@ BEGIN
     password=tuckathomas123
     user=grupo48','SELECT despacho.id_compra, despacho.fecha FROM despacho') AS f(id_compra int, fecha date)
 
-    SELECT INTO 
+    IF NOT EXISTS(SELECT * FROM information_schema.COLUMNS WHERE COLUMN_NAME = 'fecha' AND TABLE_NAME='compras') THEN
+    ALTER TABLE compras ADD COLUMN fecha date;
+    END IF; 
+
+    UPDATE compras
+    SET fecha = tupla_compra.fecha
+END
+
+$$ language plpgsql 
