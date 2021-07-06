@@ -16,13 +16,13 @@ BEGIN
     MAX(direcciones.id) 
     FROM direcciones;
 
-    IF (verificador NOT IN (SELECT usuarios_web.rut FROM usuarios_web)) THEN   
-    INSERT INTO usuarios_web VALUES(maximo1+1,nombre,verificador,edad,sexo,direccion,SUBSTRING(verificador,1,4));
-    END IF;
-
     IF (verificador NOT IN (SELECT usuarios_web.rut FROM usuarios_web) AND NOT (direccion IN (SELECT direcciones.nombre FROM direcciones) 
     AND comuna IN (SELECT direcciones.comuna FROM direcciones))) THEN   
     INSERT INTO direcciones VALUES(maximo2+1,direccion,comuna);
+    END IF;
+
+    IF (verificador NOT IN (SELECT usuarios_web.rut FROM usuarios_web)) THEN   
+    INSERT INTO usuarios_web VALUES(maximo1+1,nombre,verificador,edad,sexo,direccion,SUBSTRING(verificador,1,4));
     END IF;
 
 END
