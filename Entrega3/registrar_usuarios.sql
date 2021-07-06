@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION
-registrar_usuarios(nombre varchar, verificador varchar, edad int, sexo int, direccion varchar, comuna varchar)
+registrar_usuarios(nombre varchar, verificador varchar, edad int, sexo varchar, direccion varchar, comuna varchar)
 RETURNS void AS $$
 
 DECLARE
