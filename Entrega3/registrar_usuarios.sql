@@ -3,7 +3,8 @@ registrar_usuarios(nombre varchar, verificador varchar, edad int, sexo int, dire
 RETURNS void AS $$
 
 DECLARE
-maximo INT ;
+maximo1 INT ;
+maximo2 INT ;
 
 BEGIN
 
