@@ -20,7 +20,8 @@ BEGIN
     INSERT INTO usuarios_web VALUES(maximo1+1,nombre,verificador,edad,sexo,direccion);
     END IF;
 
-    IF (rut NOT IN (SELECT usuarios_web.rut FROM usuarios_web) AND (direccion NOT IN direcciones.nombre AND comuna NOT IN direcciones.comuna)) THEN   
+    IF (rut NOT IN (SELECT usuarios_web.rut FROM usuarios_web) AND direccion NOT IN (SELECT direcciones.nombre FROM direcciones) 
+    AND comuna NOT IN (SELECT direcciones.comuna FROM direcciones)) THEN   
     INSERT INTO direcciones VALUES(maximo2+1,direccion,comuna);
     END IF;
 
