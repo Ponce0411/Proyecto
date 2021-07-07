@@ -4,7 +4,7 @@ RETURNS void AS $$
 
 BEGIN
 
-    UPDATE usuarios_web
+    UPDATE usuarios
     SET contraseña = clave
     WHERE rut = verificador;
     
