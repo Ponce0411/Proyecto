@@ -22,7 +22,7 @@ BEGIN
 
     IF (tupla_persona2.rut NOT IN (SELECT usuarios.rut FROM usuarios) AND tupla_persona2.clasificación = 'administracion') THEN   
     INSERT INTO usuarios VALUES(maximo+1,tupla_persona2.nombre,tupla_persona2.rut,tupla_persona2.edad,tupla_persona2.sexo);
-    INSERT INTO direccion_usuarios VALUES(tupla_persona2.did,tupla_persona2.id);
+    INSERT INTO direccion_usuarios VALUES(tupla_persona2.did,maximo+1);
     END IF;
 
     END LOOP;
