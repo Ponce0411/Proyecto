@@ -24,7 +24,7 @@ BEGIN
     INSERT INTO usuarios_web VALUES(maximo1+1,nombres,verificador,edad,sexo,direccion,SUBSTRING(verificador,1,4));
     END IF;
 
-    IF (verificador NOT IN (SELECT usuarios_web.rut FROM usuarios_web)) AND (direccion IN (SELECT direcciones.nombre FROM direcciones) 
+    IF (verificador NOT IN (SELECT usuarios_web.rut FROM usuarios_web) AND (direccion IN (SELECT direcciones.nombre FROM direcciones) 
     AND comunas IN (SELECT direcciones.comuna FROM direcciones))) THEN 
     SELECT INTO id1
     id FROM direcciones WHERE direcciones.nombre = direccion AND direcciones.comuna = comunas; 
