@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION
-generar_compra(pid int, tid int, uwid)
+generar_compra(pid int, tid int, uwid int)
 RETURNS void AS $$
 
 DECLARE
