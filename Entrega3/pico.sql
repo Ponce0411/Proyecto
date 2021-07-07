@@ -6,7 +6,7 @@ DECLARE
 tupla RECORD ;
 
 BEGIN
-    FOR tupla IN (SELECT direcciones.id, usuarios_web.id FROM direcciones, usuarios_web WHERE usuarios_web.direccion = direcciones.nombre AS f(id1 int, id2 int))
+    FOR tupla IN (SELECT direcciones.id as id1, usuarios_web.id as id2 FROM direcciones, usuarios_web WHERE usuarios_web.direccion = direcciones.nombre)
 
 
     LOOP
